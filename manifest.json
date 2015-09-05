@@ -1,0 +1,15 @@
+{
+    "manifest_version": 1,
+    "name": "fix55688",
+    "description": "修改台灣大車隊快速叫車",
+    "version": "1.0",
+    "author": "Po-chiang Chao ::BobChao",
+    "content_scripts": [{
+      "matches": ["https://web55688.55688.com.tw/TII_FRONTSTAGE/APPS/Booking/CallCarNormalTGDS.aspx*"],
+      "css": ["css/style.css"],
+      "js": ["js/fix55688.js"]
+    }],
+    "icons": {
+      "128": "/icons/55688.png"
+    }
+}

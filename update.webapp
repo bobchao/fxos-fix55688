@@ -1,0 +1,9 @@
+{
+  "name" : "fix55688",
+  "description": "修改台灣大車隊快速叫車",
+  "developer": { "name": "Po-chiang Chao ::BobChao" },
+  "package_path": "extension.zip",
+  "icons": {
+    "128": "/icons/55688.png"
+  }
+}

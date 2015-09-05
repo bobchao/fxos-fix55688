@@ -1,0 +1,9 @@
+#MapFrame {width: 100% !important;}
+#TITLE, .SubTitle {
+  padding: 5px 10px !important;
+  width: calc(100% - 20px) !important;
+}
+.SubTitle + div {
+  margin:10px !important;
+}
+#STEP, #btnBACK_0 {display: none !important;}
